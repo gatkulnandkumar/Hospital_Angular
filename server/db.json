@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "id": 2,
+      "name": "Nandkumar",
+      "email": "nandkumar.gatkul@gmail.com",
+      "website": "dasdsada "
+    },
+    {
+      "id": 3,
+      "name": "Nandkumar",
+      "email": "nandkumar.gatkul@gmail.com",
+      "website": "dasdsada "
+    },
+    {
+      "id": 4,
+      "name": "Nandkumar",
+      "email": "nandkumar.gatkul@gmail.com",
+      "website": "dasdsada "
+    },
+    {
+      "id": "5",
+      "name": "ClientDetails",
+      "email": "mikepaul21@gmail.com",
+      "website": "hfdgfhf"
+    },
+    {
+      "id": "6",
+      "name": "ClientDetails",
+      "email": "mikepaul21@gmail.com",
+      "website": "hfdgfhf"
+    },
+    {
+      "id": "7",
+      "name": "ClientDetails",
+      "email": "mikepaul21@gmail.com",
+      "website": "hsdjkhajdasa"
+    },
+    {
+      "id": "9",
+      "name": "ClientDetails",
+      "email": "nand@sakec.in",
+      "website": "hfdgfhf"
+    }
+  ]
+}

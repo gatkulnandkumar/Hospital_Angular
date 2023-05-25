@@ -1,0 +1,71 @@
+
+<div class="container-fluid">
+    <h1> Add Patient</h1>
+
+<div class="form-group">
+<form class="form-group"  #userForm="ngForm">
+    
+    <div class="row">
+        <div class=" col-md-6">
+            <div class=" form-group">
+                 <input type="id" id="id" name="id" class="form-control" [(ngModel)] = "id"
+                  placeholder="ID"  required> 
+            </div>
+            
+        </div>
+
+        <div class=" col-md-6">
+        <div class=" form-group">
+            <input type="name"  id="name" name="name" class="form-control" [(ngModel)] = "name"
+             placeholder="NAME"  required>
+        </div>
+    </div>
+</div>
+
+
+     
+<div class="row">
+    <div class=" col-md-6">
+        <div class=" form-group">
+             <input type="email" id="email" name="email" class="form-control" [(ngModel)] = "email"
+             placeholder="EMAIL"  required> 
+        </div>
+        
+    </div>
+
+    <div class=" col-md-6">
+    <div class=" form-group">
+        <input type="website"  id="website" name ="website" class="form-control" [(ngModel)] = "website"
+        placeholder="WEBSITE"  required>
+    </div>
+    
+</div>
+
+</div>
+
+    <div class="row">
+        <div class="offset-md-5">
+           
+            <div class="form-group" style=" margin-top:5%">
+                <button type="submit" class="btn btn-success my-2 my-sm-0 mx-2" 
+                [disabled]="userForm.invalid"
+                (click)="CreateAndUpdate(patientsService.currentPatient)"
+                style="opacity: 0.9;" >Add</button>
+            
+                <button type="submit" class="btn btn-secondary mx- 2"  (click)="userForm.resetForm({})" >Clear</button>
+        </div>
+    </div>
+    
+    </div>
+   
+ </form>
+</div>
+</div>
+
+
+<div  style="float: right;"> 
+    <input type="date"  id="dob" name="dob" class="form-control"  />
+</div>
+
+
+
